@@ -15,6 +15,7 @@
 		F6DB56FB29DB5C54001BA20D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DB56FA29DB5C54001BA20D /* Assets.xcassets */; };
 		F6DB56FE29DB5C54001BA20D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DB56FD29DB5C54001BA20D /* Preview Assets.xcassets */; };
 		F6DB570629DB6BA8001BA20D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB570529DB6BA8001BA20D /* Color.swift */; };
+		F6E5C54D29DD547F00B9B76F /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5C54C29DD547F00B9B76F /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F6DB56FA29DB5C54001BA20D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6DB56FD29DB5C54001BA20D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6DB570529DB6BA8001BA20D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F6E5C54C29DD547F00B9B76F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F6DB570429DB6B17001BA20D /* Extensions */,
+				F6E5C54B29DD530F00B9B76F /* Models */,
 				F683270329DC0804008505EF /* Core */,
 				F6DB56F629DB5C4B001BA20D /* CryptoApp.swift */,
 				F6DB56F829DB5C4B001BA20D /* ContentView.swift */,
@@ -133,6 +136,14 @@
 				F6DB570529DB6BA8001BA20D /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F6E5C54B29DD530F00B9B76F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5C54C29DD547F00B9B76F /* CoinModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 				F683270C29DC11C9008505EF /* CircleButtonView.swift in Sources */,
 				F6DB570629DB6BA8001BA20D /* Color.swift in Sources */,
 				F683270E29DC33C4008505EF /* CircleButtonAnimationView.swift in Sources */,
+				F6E5C54D29DD547F00B9B76F /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
